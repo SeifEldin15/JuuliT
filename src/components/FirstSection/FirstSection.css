@@ -1,0 +1,42 @@
+.FirstSection{
+    background-color: var(--custom-grey);
+    height:650px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.FirstSection img{
+     height:100%;
+     width:100%;
+     object-fit: cover;
+     position: absolute;
+ }
+.img-overlay{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.img-text-header{
+    font-size:50px;
+    color:rgb(246, 246, 246);
+    font-weight: 700;
+    width:500px;
+}
+.img-text{
+    font-size:16px;
+    color:rgb(246, 246, 246);
+    margin-top:-15px;
+}
+.img-text-container{
+    padding:35px;
+    z-index: 3;
+
+}
+.img-buttons button:first-of-type{
+    margin-right:15px;
+
+}

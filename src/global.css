@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+:root{
+   --main-color:#0D0D0D;
+   --main-darker-color:#242525;
+   --custom-grey:#BCB9B4;
+   --hover-color:#008c9c;
+   --border-color:rgb(224, 224, 224);
+}
+
+ a{
+    text-decoration: none;
+    cursor: pointer;
+    padding:0px;
+    margin:0px;
+ }
+ a:hover{
+    color: var(--hover-color);
+ }
+ button{
+    cursor: pointer;
+ }
+ .container{
+   padding-left:3%;
+   padding-right:3%;
+ }

@@ -1,0 +1,43 @@
+.SecondSection{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap:5%;
+    align-items: center;
+     background-color: var(--main-darker-color);
+     padding:50px;
+
+}
+.SecondSection img{
+    height:500px;
+    width:50%;
+    object-fit: cover;
+}
+.SecondSection-information{
+    padding-left:20px;
+
+}
+.SecondSection-information-header{
+    font-size:25px;
+    color:var(--custom-grey);
+    font-weight:800px;
+}
+.SecondSection-information-p{
+    color:var(--custom-grey);
+    margin-top:-10px;
+    font-size: 14px;
+}
+.first{
+    border-left:3px solid var(--custom-grey);
+}
+@media (max-width: 800px) {
+    .SecondSection{
+         display: flex;
+        height:auto;
+        flex-direction: column;     
+    }
+    .SecondSection img{
+         width:100%;
+     }
+}
