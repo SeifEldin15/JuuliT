@@ -1,8 +1,9 @@
 .LearnMoreBtn{
-    background-color: var(--main-color);
-    color: var(--custom-grey);
-    border: 0.01em solid var(--custom-grey);
+    background-color: var(--color-2);
+    color: var(--off);
+    border: 0;
     padding:10px;
     width:110px;
     font-size:14px;
+     border-radius: 9px;
 }

@@ -2,13 +2,17 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0px;
     padding:0px;
+     overflow-x: hidden;
 }
+ 
 :root{
-   --main-color:#0D0D0D;
-   --main-darker-color:#242525;
-   --custom-grey:#BCB9B4;
-   --hover-color:#008c9c;
+    --color-1:#EA580C;
+   --color-2:rgb(23, 38, 70);
    --border-color:rgb(224, 224, 224);
+  
+   --off:#f4f4f4;
+   --color-3:#676767;
+
 }
 
  a{
@@ -24,6 +28,14 @@ body{
     cursor: pointer;
  }
  .container{
-   padding-left:3%;
-   padding-right:3%;
+   padding-left:8%;
+   padding-right:8%;
  }
+ .section-spacing{
+   padding-top:75px;
+  }
+ @media (max-width: 800px) {
+   .section-spacing{
+      padding-top:75px;
+   }
+}

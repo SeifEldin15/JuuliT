@@ -1,0 +1,16 @@
+.BuyNowBtn{
+    font-size:14px;
+    color:var(--color-2);
+    background-color: var(--color-1);
+    border:0px;
+    padding:6px;
+    padding-right:30px;
+    padding-left:30px;
+    border-radius:19px;
+ }
+.BuyNowBtn{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    
+}

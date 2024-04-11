@@ -5,14 +5,14 @@
     grid-template-columns: repeat(2, 1fr);
     gap:5%;
     align-items: center;
-     background-color: var(--main-darker-color);
-     padding:50px;
-
+  
 }
+
 .SecondSection img{
     height:500px;
     width:50%;
     object-fit: cover;
+    border-radius: 8px;
 }
 .SecondSection-information{
     padding-left:20px;
@@ -20,24 +20,27 @@
 }
 .SecondSection-information-header{
     font-size:25px;
-    color:var(--custom-grey);
+    color:var(--color-1);
     font-weight:800px;
 }
 .SecondSection-information-p{
-    color:var(--custom-grey);
+    color:black;
     margin-top:-10px;
     font-size: 14px;
 }
 .first{
-    border-left:3px solid var(--custom-grey);
+    border-left:3px solid var(--color-1);
 }
 @media (max-width: 800px) {
     .SecondSection{
-         display: flex;
+        display: flex;
         height:auto;
-        flex-direction: column;     
+        flex-direction: column;    
+        padding-left:25px;
+        padding-right:25px;
     }
     .SecondSection img{
          width:100%;
+         
      }
 }

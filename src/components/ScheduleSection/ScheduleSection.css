@@ -1,0 +1,37 @@
+.ScheduleSection {
+ position: relative;
+ width:100%;
+ height:auto;
+ min-height:350px;
+ display: flex;
+ align-items: center;
+}
+.overaly{
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.ScheduleSection img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position: absolute;
+}
+.ScheduleSection-header{
+    font-size:35px;
+    color:var(--color-1);
+    font-weight:800;
+ }
+.ScheduleSection-info{
+    padding:35px;
+    width:100%;
+    z-index: 3;
+}
+.ScheduleSection-p{
+    color:var(--off);
+    margin-top:-10px;
+    font-size: 16px;
+    max-width: 650px;
+}

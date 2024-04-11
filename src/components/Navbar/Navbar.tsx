@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import LearnMoreBtn from '../LearnMoreBtn/LearnMoreBtn';
 import SignUpBtn from '../SignUpBtn/SignUpBtn';
+import Logo from '../Logo/Logo';
+
 import './navbar.css';
 
 
@@ -16,9 +18,7 @@ const Navbar = () => {
              <div className="overlay"></div>
 
              <div className={`sidebar ${isOpen ? 'sidebar-displayed' : 'sidebar'}`}>
-             <h2 className='Logo'>
-                        JuuliT
-                    </h2>
+             <Logo />
                <div className="sidebar-buttons-container">
                 <SignUpBtn />
                 <LearnMoreBtn />
@@ -31,11 +31,9 @@ const Navbar = () => {
                     </div>
             </div>
 
-             <div className="navbar container">
+             <div className="navbar ">
                 <div className="navbar-left-side">
-                     <h2 className='Logo'>
-                        JuuliT
-                    </h2>
+                <Logo />
                      <div className='nav-links-container'>
                         <a href="#">Digital Solutions</a>
                         <a href="#">Automation Services</a>

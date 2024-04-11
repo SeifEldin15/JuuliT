@@ -1,0 +1,9 @@
+.ScheduleBtn{
+    background-color: black;
+    color: var(--off);
+    border: 0.01em solid var(--color-1);
+    padding:10px;
+    width:110px;
+    font-size:14px;
+    border-radius: 9px;
+}

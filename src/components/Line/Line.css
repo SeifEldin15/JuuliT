@@ -1,0 +1,12 @@
+@media (max-width: 800px) {
+    .line{
+        height:110px;
+    }
+}
+.line{
+    height:65px;
+    border:1px solid var(--color-1);
+    width:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+}

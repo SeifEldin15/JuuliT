@@ -1,16 +1,20 @@
+import { BrowserRouter as Router, Route, BrowserRouter, Routes, Link } from 'react-router-dom';
 import './global.css';
 
-import Navbar from './components/Navbar/Navbar';
-import FirstSection from './components/FirstSection/FirstSection';
-import SecondSection from './components/SecondSection/SecondSection';
+import Home from './pages/home';
+import SignUp from './pages/SignUp';
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <FirstSection />
-      <SecondSection />
-    </>
+           <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/Signup" element={<SignUp />} />
+             </Routes>
+        </BrowserRouter>
+     </>
   );
 }
 
