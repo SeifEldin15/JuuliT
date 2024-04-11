@@ -1,30 +1,30 @@
-import './SimplifiySection.css';
-import cube from '../../assets/pictures/3d.png';
-import LearnMoreBtn from '../LearnMoreBtn/LearnMoreBtn';
-import SignUpBtn from '../SignUpBtn/SignUpBtn';
-import Line from '../Line/Line';
+ import './SimplifiySection.css';
+ import cube from '../../assets/pictures/3d.png'
+ import LearnMoreBtn from '../LearnMoreBtn/LearnMoreBtn';
+ import SignUpBtn from '../SignUpBtn/SignUpBtn';
+ import Line from '../Line/Line';
 
-function SimplifySection() {
+function SimplifiySection() {
   return (
-    <div className='SimplifySection container section-spacing'>
-      <div className="SimplifySection-information">
-        <p className="SimplifySection-information-header">
-          Transform your business with our digital solutions.
+    <div className='SimplifiySection container section-spacing'>
+        <div className="SimplifiySection-information">
+        <p className="SimplifiySection-information-header">
+          Transform your business with our digital solutions with us
         </p>
         <div className="buttons-container">
-          <LearnMoreBtn />
-          <SignUpBtn />
-        </div>
+        <LearnMoreBtn />
+        <SignUpBtn />
       </div>
-      <div className="SimplifySection-RightSide">
-        <div className="SimplifySection-RightSide-icons">
-          <img src={cube} alt="" />
-          <Line /> 
-          <img src={cube} alt="" />
-          <Line /> 
-          <img src={cube} alt="" />
-          <Line /> 
-          <img src={cube} alt="" />
+      </div>
+      <div className="SimplifiySection-RightSide">
+        <div className="SimplifiySection-RightSide-icons">
+            <img src={cube} alt="" />
+            <Line /> 
+            <img src={cube} alt="" />
+            <Line /> 
+            <img src={cube} alt="" />
+            <Line /> 
+            <img src={cube} alt="" />
         </div>
         <div>
           <h3>Initial Consultation</h3>
@@ -41,4 +41,4 @@ function SimplifySection() {
   );
 }
 
-export default SimplifySection;
+export default SimplifiySection;
