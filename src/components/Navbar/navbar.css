@@ -40,7 +40,7 @@
     width: 200px;
     position: absolute;
     height: 100%;
-    background-color: var(--main-darker-color);
+    background-color: var(--color-2);
     left: -290px;
     padding: 35px;
     transition: left 0.3s ease;  
