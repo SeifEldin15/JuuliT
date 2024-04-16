@@ -1,46 +1,71 @@
-.SecondSection{
-    display: grid;
-    display: flex;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    gap:5%;
-    align-items: center;
-  
-}
-
-.SecondSection img{
+.ServicesSection{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
     height:500px;
-    width:50%;
-    object-fit: cover;
-    border-radius: 8px;
 }
-.SecondSection-information{
-    padding-left:20px;
+.ServicesSection-right-side{
+    display: flex;
+}
+.ServicesSection-right-side div:first-of-type{
+z-index: 3 !important;     background-color: var(--color-1);
 
 }
-.SecondSection-information-header{
-    font-size:25px;
-    color:var(--color-1);
-    font-weight:800px;
+ 
+.ServicesSection-left-side-header{
+ color: var(--color-2);
+    font-weight: 800;
+    font-size:37px;
+    max-width:500px;
 }
-.SecondSection-information-p{
-    color:black;
+.ServicesSection-left-side-p{
+    color: var(--color-2);
+     font-size:14px;
+     max-width:570px;
+     margin-bottom: 50px;
+}
+.feature-container{
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+ .icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    height:70px;
+    width:70px;
+}
+  .icon-container{
+    font-size: 23px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+}
+ 
+
+.feature-container-middle{
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+.feature-container-info  {
+    margin-left:15px;
+}   
+.feature-container-info  p{
+    color: var(--color-2);
     margin-top:-10px;
-    font-size: 14px;
+    font-size:13px;
+}   
+.feature-container-info  h3{
+    color: var(--color-2);
+}   
+.ServicesSection-right-side{
+     height:500px;
 }
-.first{
-    border-left:3px solid var(--color-1);
+.ServicesSection-right-side img{
+    width:100%;
 }
 @media (max-width: 800px) {
-    .SecondSection{
-        display: flex;
-        height:auto;
-        flex-direction: column;    
-        padding-left:25px;
-        padding-right:25px;
-    }
-    .SecondSection img{
-         width:100%;
-         
-     }
+ 
 }

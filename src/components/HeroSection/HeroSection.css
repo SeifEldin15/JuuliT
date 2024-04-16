@@ -2,10 +2,9 @@
     background-color: var(   --color-2);
     height:650px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
     align-items: center;
+    grid-template-columns: repeat(2, 1fr);
 }
  
 .img-text-header{
@@ -15,9 +14,10 @@
 
 }
 .img-text{
-    font-size:18px;
+    font-size:13px;
      margin-top:-15px;   
       color:var(--off);
+      margin-bottom: 45px;
 
 }
 .img-text-container{

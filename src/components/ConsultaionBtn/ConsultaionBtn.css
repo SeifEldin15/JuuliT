@@ -3,10 +3,15 @@
     color: var(--color-1);
     border: 0;
     padding:15px;
-    padding-right:40px;
-    padding-left:40px;
+    padding-right:35px;
+    padding-left:35px;
     width:auto;
-    font-size:19px;
+    font-size:18px;
     color: white;
     border-radius: 9px;
+    display: flex;
+    align-items: center;
+ }
+ .ConsultaionBtn i{
+    margin-left:15px;
  }

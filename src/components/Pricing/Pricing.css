@@ -60,6 +60,7 @@
 .Pricing-benefits div{
     display: flex;
     align-items: center;
+    
 
 }
 .Pricing-benefits div p{
@@ -74,12 +75,13 @@
   }
   .pricing-div
   {
+ 
     display: flex;
     width:80%;
     justify-content: space-between;
   }
   .middle{
-    background-color: var(--color-2);
+    background-color: var(--color-2) !important;
     padding:20px;
     padding-left:40px;
     border-radius: 9px;
@@ -127,13 +129,20 @@
 
   }
   .pricing-card{
-    padding:20px;
-    padding-left:40px;
-    border-radius: 9px;
-    padding-right:90px;
+margin-bottom: 30px;
   
     }
+
     .Pricing-p2{
       margin-top: 50px;
     }
 }
+.pricing-card{
+  padding:20px;
+  padding-left:40px;
+  border-radius: 9px;
+  padding-right:90px;
+  background-color: var(--color-2-transparent);
+
+
+  }

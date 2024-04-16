@@ -1,6 +1,6 @@
   
 import Navbar from '../components/Navbar/Navbar';
-import FirstSection from '../components/FirstSection/FirstSection';
+import HeroSection from '../components/HeroSection/HeroSection';
 import ServicesSection from '../components/ServicesSection/ServicesSection';
 import SolutionsSection from '../components/SolutionsSection/SolutionsSection';
 import SimplifiySection from '../components/SimplifiySection/SimplifiySection';
@@ -13,7 +13,7 @@ function home() {
   return (
     <>
       <Navbar />
-      <FirstSection />  
+      <HeroSection />  
       <SimplifiySection />
       <ServicesSection />
        <SolutionsSection />

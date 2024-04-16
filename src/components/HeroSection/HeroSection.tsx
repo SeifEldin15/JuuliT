@@ -1,9 +1,10 @@
-import './FirstSection.css';
+import './HeroSection.css';
 import ConsultaionBtn from '../ConsultaionBtn/ConsultaionBtn';
  function FirstSection() {
   return (
      <div className='FirstSection container'>
-        <h1 className="img-text-header">
+      <div className="hero-section-information">
+      <h1 className="img-text-header">
             Transform Your Business With Digital Solutions 
         </h1>
         <p className="img-text">
@@ -11,6 +12,10 @@ import ConsultaionBtn from '../ConsultaionBtn/ConsultaionBtn';
         </p>
         <div className="img-buttons">
                     <ConsultaionBtn />
+         </div>
+      </div>
+         <div className="hero-section-img">
+
          </div>
        </div>
    

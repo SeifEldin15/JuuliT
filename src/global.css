@@ -7,7 +7,10 @@ body{
  
 :root{
     --color-1:#EA580C;
+    --color-1-transparent:#ea5a0c76;
+
    --color-2:rgb(23, 38, 70);
+   --color-2-transparent:rgba(35, 83, 186, 0.249);
    --border-color:rgb(224, 224, 224);
   
    --off:#f4f4f4;
@@ -32,7 +35,7 @@ body{
    padding-right:8%;
  }
  .section-spacing{
-   padding-top:75px;
+   padding-top:135px;
   }
  @media (max-width: 800px) {
    .section-spacing{
