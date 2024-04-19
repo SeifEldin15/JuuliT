@@ -1,17 +1,15 @@
-.ConsultaionBtn{
-    background-color: var(--color-1);
-    color: var(--color-1);
-    border: 0;
-    padding:15px;
-    padding-right:35px;
-    padding-left:35px;
-    width:auto;
-    font-size:18px;
-    color: white;
-    border-radius: 9px;
-    display: flex;
-    align-items: center;
- }
- .ConsultaionBtn i{
-    margin-left:15px;
- }
+.ConsultaionBtn {
+   background-image: linear-gradient(to right, #FF705D, #FFCB5D);
+   color: white;
+   border: 0;
+   padding: 15px 35px;
+   font-size: 18px;
+   border-radius: 9px;
+   display: flex;
+   align-items: center;
+   border-radius: 15px;;
+}
+
+.ConsultaionBtn i {
+   margin-left: 15px;
+}

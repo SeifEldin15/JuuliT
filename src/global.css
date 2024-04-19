@@ -37,8 +37,8 @@ body{
  .section-spacing{
    padding-top:135px;
   }
- @media (max-width: 800px) {
+ /* @media (max-width: 800px) {
    .section-spacing{
       padding-top:75px;
    }
-}
+} */
