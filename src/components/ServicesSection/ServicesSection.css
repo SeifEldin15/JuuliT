@@ -63,9 +63,12 @@ z-index: 3 !important;     background-color: var(--color-1);
 }   
 .ServicesSection-right-side{
      height:500px;
+    margin-top:150px;   
 }
 .ServicesSection-right-side img{
-    width:100%;
+    width:90%;
+    object-fit: cover;
+    border-radius: 12px;
 }
 @media (max-width:850px) {
  
