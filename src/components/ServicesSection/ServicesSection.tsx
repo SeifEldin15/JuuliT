@@ -1,5 +1,5 @@
 import './ServicesSection.css';
-import Orange from '../../assets/pictures/pexels-photo-4974915.webp';
+import Orange from './pexels-photo-4974915.png';
 
 function SecondSection() {
   return (
