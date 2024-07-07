@@ -16,6 +16,8 @@
 
 }
 .img-text{
+              z-index: 1;
+
     font-size:13px;
      margin-top:-15px;   
        margin-bottom: 45px;
