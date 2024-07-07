@@ -51,7 +51,7 @@
     flex-direction: column;
     align-items: center;
 }
-.sidebar *{
+.sidebar-displayed{
     z-index: 11111111111111111111111111111111111111111111111111111111111111111111111111111 !important;
 }
 .sidebar-displayed {
